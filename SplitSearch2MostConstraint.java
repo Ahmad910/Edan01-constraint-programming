@@ -58,7 +58,6 @@ public class SplitSearch2MostConstraint {
 	 * Store used in search
 	 */
 	Store store;
-
 	/**
 	 * Defines varibales to be printed when solution is found
 	 */

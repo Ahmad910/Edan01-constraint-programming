@@ -65,7 +65,6 @@ public class SmallestDomain {
 	 * It represents current depth of store used in search.
 	 */
 	int depth = 0;
-
 	/**
 	 * It represents the cost value of currently best solution for FloatVar
 	 * cost.

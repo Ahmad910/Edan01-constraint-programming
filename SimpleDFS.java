@@ -256,7 +256,6 @@ public class SimpleDFS {
 				searchVariables = new IntVar[v.length - 1];
 				for (int i = 0; i < v.length - 1; i++) {
 					searchVariables[i] = v[i + 1];
-
 				}
 				// System.out.println(v[0] + " sssssssssssssssssssssss");
 				return v[0];

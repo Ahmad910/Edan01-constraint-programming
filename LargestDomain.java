@@ -138,7 +138,6 @@ public class LargestDomain {
 			store.impose(choice.getConstraint());
 
 			// choice point imposed.
-
 			consistent = label(choice.getSearchVariables());
 
 			if (consistent) {

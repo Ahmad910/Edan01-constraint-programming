@@ -68,7 +68,6 @@ import org.jacop.search.SelectChoicePoint;
 public class Golomb {
 
 	Store store;
-
 	/**
 	 * It specifies the number of marks (number of natural numbers in the
 	 * sequence).

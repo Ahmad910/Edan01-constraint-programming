@@ -86,7 +86,6 @@ public class SimpleDFSMostConstraint {
 	 * This function is called recursively to assign variables one by one.
 	 */
 	public boolean label(IntVar[] vars) {
-
 		if (trace) {
 			for (int i = 0; i < vars.length; i++)
 				System.out.print(vars[i] + " ");

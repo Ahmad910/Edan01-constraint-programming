@@ -62,7 +62,6 @@ public class SplitSearch1MostConstraint {
 	 * Defines varibales to be printed when solution is found
 	 */
 	IntVar[] variablesToReport;
-
 	/**
 	 * It represents current depth of store used in search.
 	 */

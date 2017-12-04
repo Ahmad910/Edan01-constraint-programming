@@ -126,7 +126,6 @@ public class Lab5 {
 		SelectChoicePoint<IntVar> select = new SimpleMatrixSelect<IntVar>(matrix, new SmallestDomain<IntVar>(),
 				new MostConstrainedStatic<IntVar>(), new IndomainMin<IntVar>());
 		boolean result = search.labeling(store, select, minPoints);
-
 		if (result) {
 			System.out.println("Solution: ");
 			for (int i = 0; i < n; i++) {
